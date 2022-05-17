@@ -1,8 +1,9 @@
 @extends('layouts.base')
 
 @section('main-content')
+    <h1 class="main-title">Movies</h1>
+
     <div class="content-wrapper">
-        <h1>Movies</h1>
         @foreach ($movies as $movie)
             <div class="card">
                 <h1 class="title">Title: {{ $movie->title }}</h1>

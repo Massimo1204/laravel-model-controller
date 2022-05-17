@@ -1,0 +1,24 @@
+main .main-title {
+  text-align: center;
+  font-size: 2.5rem;
+}
+main div.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main div.content-wrapper div.card {
+  margin: 10px;
+  padding: 10px 20px;
+  width: 300px;
+  height: 330px;
+  border: 2px solid grey;
+  border-radius: 20px;
+}
+main div.content-wrapper div.card .title {
+  border-bottom: 1px solid rgb(179, 175, 175);
+}
+main div.content-wrapper div.card p {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
